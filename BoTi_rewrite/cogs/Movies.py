@@ -3,7 +3,7 @@ from discord.ext import commands
 
 import aiohttp
 
-KEY = "424dfdff"
+KEY = "find your own :)"
 
 
 class Movies:
