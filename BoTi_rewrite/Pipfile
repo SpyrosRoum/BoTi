@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+discord-py = {extras = ["voice"],git = "https://github.com/Rapptz/discord.py",ref = "rewrite"}
+art = "*"
+pillow = "*"
+numexpr = "*"
+asyncpg = "*"
+lavalink = {git = "https://github.com/Devoxin/Lavalink.py",ref = "dev"}
+aiofiles = "*"
+aioprint = {git = "https://github.com/crrapi/aioprint"}
+
+[requires]
+python_version = "3.6"
